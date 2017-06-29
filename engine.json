@@ -1,0 +1,24 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "com.coviam.sentimentAnalysis.engine.SA_EngineFactory",
+  "datasource": {
+    "params" : {
+      "appName" : "MyApp1",
+      "evalK" : 3
+    }
+  },
+  "preparator": {
+    "params": {
+      "nGram": 1
+    }
+  },
+  "algorithms": [
+    {
+      "name": "Naivebayes",
+      "params": {
+        "lambda" : 1
+      }
+    }
+  ]
+}
