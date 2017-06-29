@@ -32,8 +32,8 @@ def import_events(client, file):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(
     description="Import twitter data for sentiment analysis")
-  parser.add_argument('--access_key', default='juOu9GG4xspJHhBXz-DKTR8DrvUw-O9MGNi7d3CYg1FCiXA9p7-cDaER2hZlUit3')
-  parser.add_argument('--url', default="https://adg-pio-eventserver.herokuapp.com")
+  parser.add_argument('--access_key', default='R3p4tqlPvZaO6-K_sZD1dGYYEwnFz3eCovynSM2WeeMECkEBpetTP4ojpobDWt4O')
+  parser.add_argument('--url', default="http://sheltered-sierra-30907.herokuapp.com")
   parser.add_argument('--file', default="./data/sample.csv")
 
   args = parser.parse_args()
