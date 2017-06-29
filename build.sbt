@@ -1,7 +1,7 @@
 
 assemblySettings
 
-name := "SantimentAnalysis_BagOfWords_Model"
+name := "SentimentAnalysis_BagOfWords_Model"
 
 version := "1.0"
 
